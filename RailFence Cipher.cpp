@@ -10,7 +10,7 @@
 
  int main()
  {
-     cout << "what do you want to do now ?\n  1-cipher \n  2-decipher \n Enter a number :   ";
+     cout << "what do you want to do now ?\n  1-cipher \n  2-decipher \n Enter a number :  ";
      int n;
      cin >> n;
      cout << "Our Fixed Key is 3"<< endl;
