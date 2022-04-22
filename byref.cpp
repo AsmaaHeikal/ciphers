@@ -7,8 +7,7 @@ int& byref(int& k)
 }
 int main()
 {
-    int x=0;
+    int x=10;
     x=byref(x);
-    //byref(byref(x));
     cout << x;
 }
